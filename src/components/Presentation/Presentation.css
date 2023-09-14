@@ -1,0 +1,68 @@
+.presentation{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: black;
+    
+}
+.presentation::before {    
+    content: "";
+    background-image: url(../../assets/presentation.png);   
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.65;
+    z-index: 0;
+}
+/*  */
+.presentation-text{
+    color: white;
+    filter: opacity();
+    position: relative;
+    text-align: center;
+    top:37em;
+}
+.p{
+    font-family: Oswald,semi-serif;
+    font-size: 45px;
+}
+.p2{
+    font-size: 20px;
+    color: grey;
+}
+.order-text-container{
+    background-color: #605c5c
+    ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.orders-text{
+    margin: 0px 255px;
+    text-align: center;
+    
+}
+.orders-text p,.orders-text h4{
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #c9c7c7;
+}
+
+.orders-text h3{
+    font-size: 14px;
+    margin: 0 0 10px;
+    letter-spacing: 0;
+    color:#c9c7c7;
+}
+.orders-text h2{
+    color: c9c7c7;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+
+}
+.trending-products{
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.contact-container {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.map {
+    color: rgb(206, 18, 18);
+}
+
+.faq {
+    color: black;
+    font-weight: bold;
+}
+
+.email {
+    color: black;
+}
+
+.instagram {
+    color: black;
+}
+
+.contact-grid {
+    /* en mediaquery será 1fr */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 50px;
+
+}
+
+.contact-1 {
+    width: 300px;
+}
+
+.contact-form {
+    width: 300px;
+}
+
+.input-group{
+    position: relative;
+}
